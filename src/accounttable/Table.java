@@ -38,7 +38,15 @@ public class Table extends javax.swing.JFrame {
      
      
      class Accounts{
-         
+         private String firstname;
+
+         public void getFirstName() {
+            return this.firstname;
+         }
+
+         public void setFirstName(String firstname) {
+            this.firstname = firstname;
+         }
      }
     /**
      * This method is called from within the constructor to initialize the form.
