@@ -40,7 +40,7 @@ public class Table extends javax.swing.JFrame {
      class Accounts{
          private String firstname;
 
-         public void getFirstName() {
+         public String getFirstName() {
             return this.firstname;
          }
 
